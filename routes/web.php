@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 // 前台
+// Route::get('/', [Controller::class, 'index']);
 Route::get('/', [Controller::class, 'index']);
 
 Route::get('/mypage', [Controller::class, 'mypage']);
